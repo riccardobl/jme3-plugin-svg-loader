@@ -56,6 +56,12 @@ public class SVGLoaderTest extends SimpleApplication{
 			e.printStackTrace();
 		}
 		
+		try{
+			svg.finalize();
+		}catch(Throwable e){
+			e.printStackTrace();
+		}
+		
 	}
 	
 	private void addInstance(SVGImage svg,int l,int x,int y) throws TranscoderException{
