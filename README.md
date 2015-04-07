@@ -30,6 +30,6 @@ Dependencies: [Apache Batik](http://apache.panu.it/xmlgraphics/batik/binaries/)
 ##Usage
 ```
   SVGLoader.init(assetManager);
-	SVGImage svg=(SVGImage)assetManager.loadAsset("awesome_tiger.svg");
+  SVGImage svg=(SVGImage)assetManager.loadAsset("awesome_tiger.svg");
   com.jme3.texture.Image img=svg.getRaster(new Vector2f(x_dimension,y_dimension));
 ```
