@@ -24,6 +24,7 @@
  * 	OTHER DEALINGS IN THE SOFTWARE.
  * 	For more information, please refer to <http://unlicense.org>
  */
+
 package net.forkforge.jme3_plugins.svg_loader;
 
 import java.awt.image.BufferedImage;
@@ -41,7 +42,7 @@ import com.jme3.texture.plugins.AWTLoader;
 
 public class SVGImage{
 	protected static class BufferedOut extends TranscoderOutput{public BufferedImage IMG;}
-	protected static AWTLoader AWT=new AWTLoader();
+	public static AWTLoader AWT=new AWTLoader();
 	protected byte[] SVG;
 	protected ImageTranscoder CONVERTER;
 

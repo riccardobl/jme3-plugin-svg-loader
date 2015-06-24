@@ -17,6 +17,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-riccardo-jme3-plugins</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/riccardo/jme3-plugins</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<resources>
 			<resource>

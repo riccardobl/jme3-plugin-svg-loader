@@ -25,8 +25,6 @@
  * 	For more information, please refer to <http://unlicense.org>
  */
 
-
-
 import net.forkforge.jme3_plugins.svg_loader.SVGImage;
 import net.forkforge.jme3_plugins.svg_loader.SVGLoader;
 

@@ -24,6 +24,7 @@
  * 	OTHER DEALINGS IN THE SOFTWARE.
  * 	For more information, please refer to <http://unlicense.org>
  */
+
 package net.forkforge.jme3_plugins.svg_loader;
 
 import java.io.IOException;
