@@ -1,10 +1,10 @@
 # SVG Loader
 An asset loader for jmonkeyengine that loads svg images with apache batik.
 
-##Gradle
+## Gradle
 [https://jitpack.io/#riccardobl/jme3-plugin-svg-loader](https://jitpack.io/#riccardobl/jme3-plugin-svg-loader)
 
-##Usage
+## Usage
 ```
   SVGLoader.init(assetManager);
   SVGImage svg=(SVGImage)assetManager.loadAsset("awesome_tiger.svg");
